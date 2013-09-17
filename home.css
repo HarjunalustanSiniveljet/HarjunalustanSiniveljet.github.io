@@ -14,12 +14,12 @@ header{
 div.logo_text{
 	color:white;
 	font-family: logo_font;
-	font-size: 53px;
+	font-size: 100px;
 	transform:rotate(-25deg);
 	-ms-transform:rotate(-25deg); /* IE 9 */
 	-webkit-transform:rotate(-25deg); /* Safari and Chrome */
 	padding-top: 7%;
-	padding-left: 27%;
+	padding-left: 20%;
 	float: left;
 }
 div.logo:hover{
@@ -31,14 +31,14 @@ nav.menu{
 	padding: 30px 15px 30px 15px;
 }
 div.menu_button{
-	height: 70px;
-	width: 200px;
-	background-color: navy;
+	height: 150px;
+	width: 240px;
+	background-color: rgb(36, 78, 186);
 	border: 2px solid black;
 	color:white;
 	float: left;
 	text-align: center;
-	font-size: 25px;
+	font-size: 35px;
 	opacity: 1.0;
 }
 div.menu_button:first-child{
@@ -54,7 +54,7 @@ div.menu_button:hover{
 	border: 2px solid white;
 }
 div.menu_text{
-	padding-top: 20px;
+	padding-top: 50px;
 }
 div.cover{
 	height: 900px;
