@@ -1,0 +1,124 @@
+@font-face{
+	font-family: logo_font;
+	src: url(Chunkfive.otf);
+}
+
+body{
+	margin:0px;
+}
+header{
+	/*background-color: rgba(255, 255, 255, 0.6);*/
+	/*border-radius: 15px;*/
+	margin: 0px 30px 0px 30px;
+}
+div.logo_text{
+	color:white;
+	font-family: logo_font;
+	font-size: 53px;
+	transform:rotate(-25deg);
+	-ms-transform:rotate(-25deg); /* IE 9 */
+	-webkit-transform:rotate(-25deg); /* Safari and Chrome */
+	padding-top: 7%;
+	padding-left: 27%;
+	float: left;
+}
+div.logo:hover{
+	opacity:0.7;
+}
+nav.menu{
+	float: left;
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding: 30px 15px 30px 15px;
+}
+div.menu_button{
+	height: 70px;
+	width: 200px;
+	background-color: navy;
+	border: 2px solid black;
+	color:white;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	opacity: 1.0;
+}
+div.menu_button:first-child{
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+}
+div.menu_button:last-child{
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+div.menu_button:hover{
+	opacity: 0.7;
+	border: 2px solid white;
+}
+div.menu_text{
+	padding-top: 20px;
+}
+div.cover{
+	height: 900px;
+	background-color: cyan;
+	background-image:url('cover.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+div.sail_cover{
+	height: 900px;
+	background-color: cyan;
+	background-image: url('purjehdus.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+div.lapland_cover{
+	height: 900px;
+	background-color: cyan;
+	background-image: url('lapland1.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+div.salmela_cover{
+	height: 900px;
+	background-color: cyan;
+	background-image: url('salmela_lippu.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+div.content{
+	padding: 50px 50px 50px 50px;
+	background-color:dimgray; 
+	color: white;
+	font-size:30px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+footer{
+	height: 100px;
+	background-color: #565F67;
+	border: 8px solid black;
+	color: white;
+}
+div.footer_logo{
+	float: left;
+	padding: 30px 0px 0px 20px;
+}
+div.rights{
+	float: left;
+	padding: 30px 100px 0px 100px;
+}
+footer div p{
+	margin: 0px;
+	padding: 0px;
+}
+footer div a{
+	text-decoration: none;
+	color: white;
+}
