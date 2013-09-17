@@ -18,6 +18,10 @@ div.logo_text{
 	transform:rotate(-25deg);
 	-ms-transform:rotate(-25deg); /* IE 9 */
 	-webkit-transform:rotate(-25deg); /* Safari and Chrome */
+	-webkit-user-select: none;  
+  	-moz-user-select: none;    
+  	-ms-user-select: none;      
+  	user-select: none;
 	padding-top: 7%;
 	padding-left: 20%;
 	float: left;
@@ -55,6 +59,11 @@ div.menu_button:hover{
 }
 div.menu_text{
 	padding-top: 50px;
+	-webkit-user-select: none;  
+  	-moz-user-select: none;    
+  	-ms-user-select: none;      
+  	user-select: none;
+
 }
 div.cover{
 	height: 900px;
