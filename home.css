@@ -1,8 +1,13 @@
+/* Copyright 2013 by Simo Haakana http://www.github.com/siimeon */
+/* All Rights Reserved */
+
+/* Legacy code */
+/*
 @font-face{
 	font-family: logo_font;
 	src: url(Chunkfive.otf);
 }
-
+*/
 body{
 	margin:0px;
 }
@@ -41,8 +46,10 @@ nav{
   	padding-top: 0.5%;
 }
 a{
-	text-decoration: none;
-	color:white;
+	text-decoration: none;	
+}
+span a{
+	color: white;
 }
 span{
 	white-space: nowrap;
@@ -78,7 +85,7 @@ div.logo:hover{
 div.menu_button{
 	height: 150px;
 	width: 240px;
-	background-color: rgb(36, 78, 186);
+	background-color: rgb(37, 55, 100);
 	border: 2px solid black;
 	color:white;
 	float: left;
@@ -142,20 +149,52 @@ div.salmela_cover{
   	-o-background-size: cover;
   	background-size: cover;
 }
+div.sail_cover2{
+	height: 900px;
+	background-color: white;
+	background-image: url('purjehdus2.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+h1{
+	text-align: center;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+
+}
 div.content{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+}
+div#lippukunta, div#toiminta, div#johtaja, div#yhteys{
 	padding: 50px 50px 50px 50px;
-	background-color:dimgray; 
 	color: white;
 	font-size:30px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 }
+div#lippukunta{
+	background-color: rgb(245, 234, 46 );
+}
+div#toiminta{
+	background-color: rgb(212, 121, 30);
+}
+div#johtaja{
+	background-color: rgb(169, 206, 108);
+}
+div#yhteys{
+	background-color: rgb(148, 120, 21);
+}
 
 footer{
 	height: 100px;
-	background-color: #565F67;
-	border: 8px solid black;
-	color: white;
+	background-color: rgb(194, 194, 192);
+	border-top: 8px solid black;
+	border-bottom: 8px solid black;
 }
 div.footer_logo{
 	float: left;
@@ -163,13 +202,14 @@ div.footer_logo{
 }
 div.rights{
 	float: left;
-	padding: 30px 100px 0px 100px;
+	padding: 20px 100px 0px 100px;
 }
 footer div p{
 	margin: 0px;
 	padding: 0px;
+	font-size: 20px;
 }
 footer div a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
