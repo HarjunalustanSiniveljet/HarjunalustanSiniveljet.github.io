@@ -27,7 +27,7 @@ div.logo_text{
 nav{
 	background-color: rgb(36, 78, 186);
 	color:white;
-	font-size:20px;
+	font-size:24px;
 	border-bottom: 3px solid white;
 	-webkit-user-select: none;  
   	-moz-user-select: none;    
@@ -35,8 +35,8 @@ nav{
   	text-align: center;
   	position: fixed;
   	width: 100%;
-  	padding-bottom: 0.5%;
-  	padding-top: 0.5%;
+  	padding-bottom: 1.5%;
+  	padding-top: 1.5%;
 }
 a{
 	text-decoration: none;	
@@ -106,50 +106,28 @@ div.menu_text{
   	user-select: none;
 
 }
-div.cover{
+div.sail_cover2, div.cover, div.sail_cover, div.lapland_cover, div.salmela_cover{
 	height: 900px;
 	background-color: white;
-	background-image:url('../img/cover.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+}
+div.cover{
+	background-image:url('../img/cover.jpg');
 }
 div.sail_cover{
-	height: 900px;
-	background-color: white;
 	background-image: url('../img/purjehdus.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 }
 div.lapland_cover{
-	height: 900px;
-	background-color: white;
 	background-image: url('../img/lapland1.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 }
 div.salmela_cover{
-	height: 900px;
-	background-color: white;
 	background-image: url('../img/salmela_lippu.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 }
 div.sail_cover2{
-	height: 900px;
-	background-color: white;
 	background-image: url('../img/purjehdus2.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 }
 h1{
 	text-align: center;
@@ -158,28 +136,28 @@ h1{
 	column-count:1;
 
 }
-div.content{
+article.content{
 	-moz-column-count:2; /* Firefox */
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;
 }
-div#lippukunta, div#toiminta, div#johtaja, div#yhteys{
+section#lippukunta, section#toiminta, section#johtaja, section#yhteys{
 	padding: 50px 50px 50px 50px;
 	color: white;
 	font-size:30px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 }
-div#lippukunta{
+section#lippukunta{
 	background-color: rgb(94, 15, 117);
 }
-div#toiminta{
+section#toiminta{
 	background-color: rgb(212, 121, 30);
 }
-div#johtaja{
+section#johtaja{
 	background-color: rgb(169, 206, 108);
 }
-div#yhteys{
+section#yhteys{
 	background-color: rgb(148, 120, 21);
 }
 
