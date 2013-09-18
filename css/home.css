@@ -1,13 +1,6 @@
 /* Copyright 2013 by Simo Haakana http://www.github.com/siimeon */
 /* All Rights Reserved */
 
-/* Legacy code */
-/*
-@font-face{
-	font-family: logo_font;
-	src: url(Chunkfive.otf);
-}
-*/
 body{
 	margin:0px;
 }
@@ -34,7 +27,7 @@ div.logo_text{
 nav{
 	background-color: rgb(36, 78, 186);
 	color:white;
-	font-size:30px;
+	font-size:20px;
 	border-bottom: 3px solid white;
 	-webkit-user-select: none;  
   	-moz-user-select: none;    
@@ -116,7 +109,7 @@ div.menu_text{
 div.cover{
 	height: 900px;
 	background-color: white;
-	background-image:url('cover.jpg');
+	background-image:url('../img/cover.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -125,7 +118,7 @@ div.cover{
 div.sail_cover{
 	height: 900px;
 	background-color: white;
-	background-image: url('purjehdus.jpg');
+	background-image: url('../img/purjehdus.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -134,7 +127,7 @@ div.sail_cover{
 div.lapland_cover{
 	height: 900px;
 	background-color: white;
-	background-image: url('lapland1.jpg');
+	background-image: url('../img/lapland1.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -143,7 +136,7 @@ div.lapland_cover{
 div.salmela_cover{
 	height: 900px;
 	background-color: white;
-	background-image: url('salmela_lippu.jpg');
+	background-image: url('../img/salmela_lippu.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -152,7 +145,7 @@ div.salmela_cover{
 div.sail_cover2{
 	height: 900px;
 	background-color: white;
-	background-image: url('purjehdus2.jpg');
+	background-image: url('../img/purjehdus2.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
