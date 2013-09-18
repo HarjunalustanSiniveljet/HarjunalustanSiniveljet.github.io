@@ -43,8 +43,8 @@ span.logo{
 	-webkit-user-select: none;  
   	-moz-user-select: none;    
   	-ms-user-select: none; 
-	margin-left:2%; 
-	margin-right:2%;
+	margin-left:4%; 
+	margin-right:5%;
 	font-size: 40px;
 }
 span.logo:hover{
