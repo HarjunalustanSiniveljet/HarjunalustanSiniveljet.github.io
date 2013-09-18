@@ -9,21 +9,6 @@ header{
 	/*border-radius: 15px;*/
 	margin: 0px 30px 0px 30px;
 }
-div.logo_text{
-	color:white;
-	font-family: logo_font;
-	font-size: 100px;
-	transform:rotate(-25deg);
-	-ms-transform:rotate(-25deg); /* IE 9 */
-	-webkit-transform:rotate(-25deg); /* Safari and Chrome */
-	-webkit-user-select: none;  
-  	-moz-user-select: none;    
-  	-ms-user-select: none;      
-  	user-select: none;
-	padding-top: 7%;
-	padding-left: 20%;
-	float: left;
-}
 nav{
 	background-color: rgb(36, 78, 186);
 	color:white;
@@ -47,18 +32,6 @@ span a{
 span{
 	white-space: nowrap;
 }
-span.logo{
-	font-family: 'Montserrat Alternates', sans-serif;
-	-webkit-user-select: none;  
-  	-moz-user-select: none;    
-  	-ms-user-select: none; 
-	margin-right:5%;
-	margin-top: 5%;
-	
-}
-span.logo:hover{
-	opacity: 0.7;
-}
 span.menu_item{
 	font-family: 'Montserrat Alternates', sans-serif; 
 	margin-right:2%;
@@ -72,40 +45,7 @@ span.menu_item{
 span.menu_item:hover{
 	opacity: 0.7;
 }
-div.logo:hover{
-	opacity:0.7;
-}
-div.menu_button{
-	height: 150px;
-	width: 240px;
-	background-color: rgb(37, 55, 100);
-	border: 2px solid black;
-	color:white;
-	float: left;
-	text-align: center;
-	font-size: 35px;
-	opacity: 1.0;
-}
-div.menu_button:first-child{
-	border-bottom-left-radius: 15px;
-	border-top-left-radius: 15px;
-}
-div.menu_button:last-child{
-	border-bottom-right-radius: 15px;
-	border-top-right-radius: 15px;
-}
-div.menu_button:hover{
-	opacity: 0.7;
-	border: 2px solid white;
-}
-div.menu_text{
-	padding-top: 50px;
-	-webkit-user-select: none;  
-  	-moz-user-select: none;    
-  	-ms-user-select: none;      
-  	user-select: none;
 
-}
 div.sail_cover2, div.cover, div.sail_cover, div.lapland_cover, div.salmela_cover{
 	height: 900px;
 	background-color: white;
