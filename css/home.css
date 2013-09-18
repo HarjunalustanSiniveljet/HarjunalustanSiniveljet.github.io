@@ -27,9 +27,6 @@ ul{
 	list-style: none;
 	display: none;
 }
-.show{
-	display: block;
-}
 li{
 	display: inline;
 	margin-right:2%;
