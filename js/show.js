@@ -13,6 +13,5 @@ $(document).ready(function(){
 			$('#harjoitukset').fadeOut("slow");
 			t = true;
 		}
-	    /*.toggleClass('show');*/
 	});
 });

@@ -1,9 +1,12 @@
 /* Copyright 2013 by Simo Haakana http://www.github.com/siimeon */
 /* All Rights Reserved */
 /* This css file is made for index.html */
+
+/* Navigation bar 'dropdown' menu default hiden */
 #harjoitukset{
 	display: none;
 }
+/* Article styling */
 h1{
 	text-align: center;
 	-moz-column-count:1; /* Firefox */
@@ -15,6 +18,20 @@ article.content{
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;
 }
+/* Section background colors */
+section#lippukunta{
+	background-color: rgb(94, 15, 117);
+}
+section#toiminta{
+	background-color: rgb(212, 121, 30);
+}
+section#johtaja{
+	background-color: rgb(169, 206, 108);
+}
+section#yhteys{
+	background-color: rgb(148, 120, 21);
+}
+/* Background cover image */
 div.main_cover{
 	background-image:url('../img/cover.jpg');
 }
@@ -29,16 +46,4 @@ div.salmela_cover{
 }
 div.sail_cover2{
 	background-image: url('../img/purjehdus2.jpg');
-}
-section#lippukunta{
-	background-color: rgb(94, 15, 117);
-}
-section#toiminta{
-	background-color: rgb(212, 121, 30);
-}
-section#johtaja{
-	background-color: rgb(169, 206, 108);
-}
-section#yhteys{
-	background-color: rgb(148, 120, 21);
 }
