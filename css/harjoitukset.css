@@ -20,6 +20,16 @@ div.lapland_cover{
 div.fall_salmela_cover{
 	background-image:url('../img/salmela_syksy.jpg');
 }
+div.tent2_cover{
+	background-image:url('../img/teltta2.jpg');
+}
+div.long_sail_cover{
+	background-image:url('../img/purjehdus3.jpg');
+	height:1500px;
+}
+#long{
+	height:1500px;
+}
 section#h1{
 	background-color: rgb(169, 206, 108);
 }
