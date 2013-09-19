@@ -5,12 +5,12 @@
 
 $(document).ready(function(){
 	var t = true;
-	$('#btn').on('click',function (e) {
+	$('#avaa').on('click',function (e) {
 		if (t == true){
-			$('#lst').fadeIn("slow");
+			$('#harjoitukset').fadeIn("slow");
 			t = false;
 		}else{
-			$('#lst').fadeOut("slow");
+			$('#harjoitukset').fadeOut("slow");
 			t = true;
 		}
 	    /*.toggleClass('show');*/

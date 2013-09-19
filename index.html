@@ -21,15 +21,20 @@
 		<script type="text/javascript" src="js/show.js"></script>
 	</head>
 	<body>
-		<!-- Navigation id done by using span and a elements in nav  -->
+		<!-- Navigation ul and li elements  -->
 		<nav>
-			<span class="menu_item"><a href="#top">Harjunalustan Siniveljet Ry</a></span>
-			<span class="menu_item"><a href="#lippukunta">Lippukunta</a></span>
-			<span class="menu_item"><a href="#toiminta">Toiminta</a></span>
-			<span class="menu_item"><a href="#johtaja">Johtajisto</a></span>
-			<span class="menu_item"><a href="#yhteys">Ota Yhteyttä</a></span>
-			<span class="menu_item" id="btn">Harjoitukset</span>
-			<ul id="lst">
+			<!-- Main navigation menu -->
+			<ul>
+				<li><a href="#top">Harjunalustan Siniveljet Ry</a></li>
+				<li><a href="#lippukunta">Lippukunta</a></li>
+				<li><a href="#toiminta">Toiminta</a></li>
+				<li><a href="#johtaja">Johtajisto</a></li>
+				<li><a href="#yhteys">Ota Yhteyttä</a></li>
+				<li id="avaa">Harjoitukset</li>
+			</ul>
+			<!-- 'Dropdown' navigation menu -->
+			<!-- ul#harjoitusket default hiden, defined in home.css-->
+			<ul id="harjoitukset" class="hide">
 				<li>Harjoitus 1.</li>
 				<li>Harjoitus 2.</li>
 				<li>Harjoitus 3.</li>
