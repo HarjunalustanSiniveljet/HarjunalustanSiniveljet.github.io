@@ -46,7 +46,10 @@ li a{
 	text-decoration: none;
 	color: white;	
 }
-
+/* Navigation bar 'dropdown' menu default hiden */
+ul.hide{
+	display: none;
+}
 /* Default photo cover div styling */
 div.cover{
 	height: 900px;
@@ -63,6 +66,18 @@ section{
 	font-size:30px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
+}
+/* Article styling */
+h1{
+	text-align: center;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+}
+article.content{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
 }
 /* Footer styling */
 footer{

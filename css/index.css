@@ -2,22 +2,7 @@
 /* All Rights Reserved */
 /* This css file is made for index.html */
 
-/* Navigation bar 'dropdown' menu default hiden */
-#harjoitukset{
-	display: none;
-}
-/* Article styling */
-h1{
-	text-align: center;
-	-moz-column-count:1; /* Firefox */
-	-webkit-column-count:1; /* Safari and Chrome */
-	column-count:1;
-}
-article.content{
-	-moz-column-count:2; /* Firefox */
-	-webkit-column-count:2; /* Safari and Chrome */
-	column-count:2;
-}
+
 /* Section background colors */
 section#lippukunta{
 	background-color: rgb(94, 15, 117);
