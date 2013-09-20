@@ -7,10 +7,10 @@ $(document).ready(function(){
 	var t = true;
 	$('#open_btn').on('click',function (e) {
 		if (t == true){
-			$('#show_menu').fadeIn("slow");
+			$('#show_menu').slideDown("slow");
 			t = false;
 		}else{
-			$('#show_menu').fadeOut("slow");
+			$('#show_menu').slideUp("slow");
 			t = true;
 		}
 	});

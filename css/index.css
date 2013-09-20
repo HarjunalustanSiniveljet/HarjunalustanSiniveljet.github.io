@@ -1,8 +1,9 @@
 /* Copyright 2013 by Simo Haakana http://www.github.com/siimeon */
 /* All Rights Reserved */
 /* This css file is made for index.html */
-
-
+ul#sidr{
+	margin: 0;
+}
 /* Section background colors */
 section#lippukunta{
 	background-color: rgb(94, 15, 117);
