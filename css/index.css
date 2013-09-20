@@ -31,9 +31,12 @@ div.salmela_cover{
 div.sail_cover2{
 	background-image: url('../img/purjehdus2.jpg');
 }
-@media all and (max-width:1000px){
+/* RWD (Responsive Web Development) sample */
+/*
+@media all and (max-device-width:1000px){
         li{
         	font-size: 45px;
         	padding-right: 5%;
         }
 }
+*/
