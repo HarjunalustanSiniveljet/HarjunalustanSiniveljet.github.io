@@ -1,9 +1,7 @@
 /* Copyright 2013 by Simo Haakana http://www.github.com/siimeon */
 /* All Rights Reserved */
 /* This css file is made for index.html */
-ul#sidr{
-	margin: 0;
-}
+
 /* Section background colors */
 section#lippukunta{
 	background-color: rgb(94, 15, 117);
@@ -32,4 +30,10 @@ div.salmela_cover{
 }
 div.sail_cover2{
 	background-image: url('../img/purjehdus2.jpg');
+}
+@media all and (max-width:700px){
+        li{
+        	font-size: 45px;
+        	padding-right: 5%;
+        }
 }
