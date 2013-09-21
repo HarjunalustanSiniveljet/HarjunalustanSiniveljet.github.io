@@ -5,6 +5,7 @@
 
 $(document).ready(function(){
 	var t = true;
+	var j = true;
 	$('#open_btn').on('click',function (e) {
 		if (t == true){
 			$('#show_menu').slideDown("slow");
@@ -12,6 +13,17 @@ $(document).ready(function(){
 		}else{
 			$('#show_menu').slideUp("slow");
 			t = true;
+		}
+	});
+	$('#mobile_menu').on('click',function (e) {
+		if (j == true){
+			
+			$('[name="mobile_hide"]').show("slow");
+			j = false;
+		}else{
+			
+			$('[name="mobile_hide"]').hide("slow");
+			j = true;
 		}
 	});
 });
