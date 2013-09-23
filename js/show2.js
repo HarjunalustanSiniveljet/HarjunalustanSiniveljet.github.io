@@ -8,11 +8,11 @@ $(document).ready(function(){
 	$('#mobile_menu').on('click',function (e) {
 		if (j == true){
 			
-			$('[name="mobile_hide"]').show("slow");
+			$('[data-rwd="mobile_hide"]').show("slow");
 			j = false;
 		}else{
 			
-			$('[name="mobile_hide"]').hide("slow");
+			$('[data-rwd="mobile_hide"]').hide("slow");
 			j = true;
 		}
 	});

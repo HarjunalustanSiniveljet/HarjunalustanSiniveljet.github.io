@@ -91,8 +91,15 @@ article.content{
 	}
 }
 /* Footer styling */
+#footer_holder{
+	height: 116px;
+}
 footer{
+	position: fixed;
+	z-index: -1;
 	height: 100px;
+	width: 100%;
+	bottom: 0px;
 	background-color: rgb(194, 194, 192);
 	border-top: 8px solid black;
 	border-bottom: 8px solid black;
@@ -132,13 +139,20 @@ div.rights{
 	li>a[data-rwd="mobile_hide"]{
 		display: none;
 	}
-	
+	li>a[data-name="title"]{
+		font-size: 50px;
+		margin-right: 10%;
+	}
 	li[data-rwd="mobile_hide"]{
 		display: none;
 	}
 	#mobile_menu{
 		display: inline;
 		margin-left: 15%;
+		position: absolute;
+		right: 35px;
+		z-index: 10;
+		top: 50px;
 	}
 	svg{
 		height: 50px;
