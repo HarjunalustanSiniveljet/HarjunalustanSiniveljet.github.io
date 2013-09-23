@@ -129,11 +129,11 @@ div.rights{
 	li{
 		font-size: 40px;
 	}
-	li>a[name="mobile_hide"]{
+	li>a[data-rwd="mobile_hide"]{
 		display: none;
 	}
 	
-	li[name="mobile_hide"]{
+	li[data-rwd="mobile_hide"]{
 		display: none;
 	}
 	#mobile_menu{
