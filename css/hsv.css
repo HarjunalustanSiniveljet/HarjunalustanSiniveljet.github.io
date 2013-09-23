@@ -82,7 +82,7 @@ article.content{
 	column-count:2;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
-/* STYLES GO HERE */
+/* Smartphone */
 	article.content{
 		-moz-column-count:1; /* Firefox */
 		-webkit-column-count:1; /* Safari and Chrome */
@@ -92,7 +92,8 @@ article.content{
 }
 /* Footer styling */
 #footer_holder{
-	height: 116px;
+	border-top: 10px solid black; 
+	height: 108px;
 }
 footer{
 	position: fixed;
@@ -157,5 +158,21 @@ div.rights{
 	svg{
 		height: 50px;
 		width: 50px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+/* Tablet */
+	li>a{
+		font-size: 17px;
+		margin-right: 0%;
+	}
+	li{
+		font-size: 17px;
+		margin: 0.5%;
+	}
+	li>a[data-name="title"]{
+		font-size: 20px;
+		padding-left: 0px;
+		margin-left: 0px;
 	}
 }
