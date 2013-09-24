@@ -25,6 +25,12 @@ nav{
   	padding-bottom: 0%;
   	padding-top: 0.4%;
 }
+@media only screen and (min-device-width : 1000px) and (min-width : 2000px) { 
+/* Big screens */
+	nav{
+		font-size:30px;
+	}	
+}
 ul{
 	list-style: none;
 }
@@ -90,6 +96,24 @@ article.content{
 		font-size: 40px;
 	}
 }
+@media only screen and (min-device-width : 1000px) and (min-width : 1800px) { 
+/* Big screens */
+	article.content{
+		-moz-column-count:3; /* Firefox */
+		-webkit-column-count:3; /* Safari and Chrome */
+		column-count:3;
+	}
+	div.cover{
+		height:1500px;
+	}
+	section{
+		padding-top:80px;
+		padding-bottom:80px;
+	}
+	section > h1{
+		margin-bottom:100px;
+	}
+}
 /* Footer styling */
 #footer_holder{
 	border-top: 10px solid black; 
@@ -125,7 +149,6 @@ div.rights{
 	padding: 20px 100px 0px 100px;
 	font-family: 'Montserrat Alternates', sans-serif; 
 }
-
 #mobile_menu{
 	display:none;
 }
