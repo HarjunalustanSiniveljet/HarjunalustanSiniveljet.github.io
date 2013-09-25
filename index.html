@@ -22,7 +22,7 @@
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<!-- Loading my own/custom javascript/jQuery for show and hide for harjoitus element -->
 		<script type="text/javascript" src="js/show.js"></script>
-		<script type="text/javascript" src="js/show2.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/partio.css">
 	</head>
 	<body>
 		<!-- Navigation bar made with nav, ul, li elements -->
@@ -37,6 +37,8 @@
 					<li><a data-rwd="mobile_hide" href="#yhteys">Ota Yhteyttä</a></li>
 					<li data-rwd="mobile_hide" id="open_btn">Harjoitukset</li>
 				</ul>
+				<!-- svg elemnt is used to draw menu icon for smartphones -->
+				<!-- #mobile_menu is hiden for all other devices except smarphones -->
 				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mobile_menu">
   					<g fill="none" stroke="white">
 						<path stroke-width="6" d="M5 20 l60 0" />
@@ -48,21 +50,20 @@
 				<!-- ul.hide default hiden, defined in index.css-->
 				<ul id="show_menu" class="hide">
 					<li><a href="harjoitukset.html">Harjoitukset</a></li> 
-					<li><a href="harjoitukset.html#h1">1.</a></li>
-					<li><a href="harjoitukset.html#h2">2.</a></li>
-					<li><a href="harjoitukset.html#h3">3.</a></li>
-					<li><a href="harjoitukset.html#h4">4.</a></li>
-					<li><a href="harjoitukset.html#h5">5.</a></li>
+					<li><a href="harjoitukset.html#h1"><span data-rwd="huge-screen">Harjoitus</span>1.</a></li>
+					<li><a href="harjoitukset.html#h2"><span data-rwd="huge-screen">Harjoitus</span>2.</a></li>
+					<li><a href="harjoitukset.html#h3"><span data-rwd="huge-screen">Harjoitus</span>3.</a></li>
+					<li><a href="harjoitukset.html#h4"><span data-rwd="huge-screen">Harjoitus</span>4.</a></li>
+					<li><a href="harjoitukset.html#h5"><span data-rwd="huge-screen">Harjoitus</span>5.</a></li>
 					<li><a href="projektityo.html">Projektityö</a></li>
-				</ul>
-				
+				</ul>		
 			</nav>
 		
 		</header>
 		<!-- First cover photo. Photo source defined in index.css-->
 		<div class="main_cover cover" id="top"></div>
 		<!-- First text chpater -->
-		<section  id="lippukunta">
+		<section  id="lippukunta" data-bg-color="Kanervanvioletti">
 			<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
 			<h1>Lippukunta</h1>
 			<article class="content">
@@ -72,7 +73,7 @@
 		<!-- Second cover photo. Photo source defined in index.css-->
 		<div class="sail_cover cover"></div>
 		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
-		<section id="toiminta">
+		<section id="toiminta" data-bg-color="Hiilloksenoranssi">
 			<h1>Toiminta</h1>
 			<article class="content" >
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus 
@@ -81,7 +82,7 @@
 		<!-- Third cover photo. Photo source defined in index.css -->
 		<div class="lapland_cover cover"></div>
 		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
-		<section id="johtaja">
+		<section id="johtaja" data-bg-color="Omenanvihrea">
 			<h1>Johtajat</h1>
 			<article class="content" >
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui.
@@ -90,7 +91,7 @@
 		<!-- Fourth cover photo. Photo source defined in index.css -->
 		<div class="sail_cover2 cover"></div>
 		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
-		<section  id="yhteys">
+		<section  id="yhteys" data-bg-color="Hiekanruskea">
 			<h1>Ota Yhteyttä</h1>
 			<article class="content" >
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui.
