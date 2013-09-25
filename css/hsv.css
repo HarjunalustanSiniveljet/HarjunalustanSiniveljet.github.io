@@ -137,6 +137,13 @@ div.rights{
 aside.resourse{
 	display: none;
 }
+@media only screen and (min-device-width : 1000px){
+	section{
+		padding-left: 70px;
+		padding-right: 70px;
+		font-size: 25px;
+	}
+}
 @media only screen and (min-device-width : 1000px) and (min-width : 2000px) { 
 /* Big screens */
 	article.content{
@@ -150,6 +157,8 @@ aside.resourse{
 	section{
 		padding-top:80px;
 		padding-bottom:80px;
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 	section > h1{
 		margin-bottom:100px;
