@@ -9,6 +9,7 @@ body{
 header{
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 /* Navigation bar styling */
 nav{
@@ -64,6 +65,12 @@ div.cover{
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	z-index: 3;
+  	position: relative;
+}
+*[data-cover="last"]{
+	border-bottom: 8px solid black;
+	padding: 0px;
 }
 /* Default section styling */
 section{
@@ -72,6 +79,8 @@ section{
 	font-size:30px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
+	z-index: 3;
+	position: relative;
 }
 /* Article styling */
 h1{
@@ -87,12 +96,14 @@ article.content{
 }
 /* Footer styling */
 #footer_holder{
-	border-top: 10px solid black; 
+	/* Legacy code */
+	/*border-top: 10px solid black; */
 	height: 108px;
+	z-index: -1;
 }
 footer{
 	position: fixed;
-	z-index: -1;
+	z-index: 1;
 	height: 100px;
 	width: 100%;
 	bottom: 0px;
