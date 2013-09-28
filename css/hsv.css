@@ -27,9 +27,12 @@ nav{
   	padding-top: 0.4%;
 }
 span[data-rwd="huge-screen"]{
-		display: none;
+	display: none;
 }
-
+div[data-role="page"]{
+	position: relative;
+	z-index: 5;
+}
 ul{
 	list-style: none;
 }
@@ -65,8 +68,6 @@ div.cover{
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	z-index: 3;
-  	position: relative;
 }
 *[data-cover="last"]{
 	border-bottom: 8px solid black;
@@ -79,8 +80,6 @@ section{
 	font-size:30px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	z-index: 3;
-	position: relative;
 }
 /* Article styling */
 h1{
@@ -99,11 +98,12 @@ article.content{
 	/* Legacy code */
 	/*border-top: 10px solid black; */
 	height: 108px;
-	z-index: -1;
+	z-index: -2;
+	position: relative;
 }
 footer{
 	position: fixed;
-	z-index: 1;
+	z-index: -1;
 	height: 100px;
 	width: 100%;
 	bottom: 0px;
