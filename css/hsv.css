@@ -29,10 +29,7 @@ nav{
 span[data-rwd="huge-screen"]{
 	display: none;
 }
-div[data-role="page"]{
-	position: relative;
-	z-index: 5;
-}
+
 ul{
 	list-style: none;
 }
