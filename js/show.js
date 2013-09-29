@@ -28,6 +28,7 @@ $(document).ready(function(){
 			t = true;
 		}
 	});
+	/*
 	$(window).scroll(function() {
    		if($(window).scrollTop() + $(window).height() == $(document).height()) {
        		$('footer').css('z-index', '2');
@@ -36,5 +37,6 @@ $(document).ready(function(){
    			$('footer').css('z-index', '-2');
    		}
 	});
+	*/
 	
 });
