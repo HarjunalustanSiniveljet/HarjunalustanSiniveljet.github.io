@@ -5,6 +5,7 @@
 	<head>
 		<!--Define utf-8 -->
 		<meta charset="utf-8">
+		<!-- Seting up some meta data -->
 		<meta name="author" content="Simo Haakana">
 		<meta name="keywords" content="HSV, Harjunalustan Siniveljet, Lahti, Partio">
 		<meta name="description" content="Harjunalustan Siniveljet Ry partio lippukunnan verkkosivut">
@@ -14,6 +15,7 @@
 		<!-- Load general stylesheets for website -->
 		<link rel="stylesheet" type="text/css" href="css/hsv.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/partio.css">
 		<!-- Loading special font form google fonts http://www.google.com/fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
 		<!-- Loading favicon -->
@@ -25,10 +27,9 @@
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<!-- Loading my own/custom javascript/jQuery for show and hide for harjoitus element -->
 		<script type="text/javascript" src="js/show.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/partio.css">
 	</head>
 	<body>
-		<!-- Navigation bar made with nav, ul, li elements -->
+		<!-- Navigation bar is made inside header and it uses nav, ul and li elements -->
 		<header>
 			<nav>
 				<!-- Main navigation menu -->
@@ -52,7 +53,7 @@
 					</svg>
 				</div>
 				<!-- 'Dropdown' navigation menu -->
-				<!-- ul.hide default hiden, defined in index.css-->
+				<!-- ul.hide default hiden, defined in hsv.css-->
 				<ul id="show_menu" class="hide">
 					<li><a href="harjoitukset.html">Harjoitukset</a></li> 
 					<li><a href="harjoitukset.html#h1"><span data-rwd="huge-screen">Harjoitus</span>1.</a></li>
@@ -69,7 +70,7 @@
 		<div class="main_cover cover" id="top"></div>
 		<!-- First text chpater -->
 		<section  id="lippukunta" data-bg-color="Kanervanvioletti">
-			<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
+			<!-- Heading is in single line and article.content is set to go two columns in hsv.css -->
 			<h1>Lippukunta</h1>
 			<article class="content">
 				Harjunalustan Siniveljet on perinteikäs Lahtelainen meripatio lippukunta, jolla asenne on Aina Valmiina. Harjunalustan Siniveljet tarjoavat parasta mahdollista partio toimintaa jota Lahden alueelta löytyy ja antaa jäsenilleen mahdollisuudet sekä valmiudet päästä kokemaan huikaisevia elämyksiä pimeistä syys öistä, talvisen tunturin huipuille tai kesäisen Vesijärven laineille. Meidän lippukunnasamme on niin poikia kuin tyttöjäkin eli olemme sekalippukunta. Jos kiinnostuit niin ota yhteyttä! Toivotamme kaikki tervetulleiksi tutustumaan toimintaamme.
@@ -78,7 +79,7 @@
 		</section>
 		<!-- Second cover photo. Photo source defined in index.css-->
 		<div class="sail_cover cover"></div>
-		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
+		<!-- Heading is in single line and article.content is set to go two columns in hsv.css -->
 		<section id="toiminta" data-bg-color="Hiilloksenoranssi">
 			<h1>Toiminta</h1>
 			<article class="content" >
@@ -88,12 +89,14 @@
 		</section>
 		<!-- Third cover photo. Photo source defined in index.css -->
 		<div class="lapland_cover cover"></div>
-		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
 		<section id="ryhma" data-bg-color="Omenanvihrea">
+		<!-- This section contains table with team meeting times -->
 			<h1>Ryhmät</h1>
 			<table>
 				<tr>
-					<td><br>Sudepennut</td>
+					<td>Sudepennut</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>Tiistai</td>
@@ -107,6 +110,8 @@
 				</tr>
 				<tr>
 					<td><br>Seikkailijat/Tarpojat</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>Torstai</td>
@@ -117,19 +122,20 @@
 		</section>
 		<!-- Fourth cover photo. Photo source defined in index.css -->
 		<div class="sail_cover2 cover"></div>
-		<!-- Heading is in single line and div.content is set to go two columns in hsv.css -->
+		<!-- Heading is in single line and article.content is set to go two columns in hsv.css -->
 		<section  id="yhteys" data-bg-color="Hiekanruskea">
 			<h1>Ota Yhteyttä</h1>
 			<article class="content" >
 			Jos kiinnostuit toiminnastamme lippukunnastamme, halut mukaan toimintaamme tai vain kuulla lisää mitä lippuikkunalle on tarjota juuri sinulle niin älä epäröi ottaa meihin yhteyttä. Lippukunnan johtajan Henri Gale antaa mielellään lisätietoja ja vastaa lippukuntaa ja toimintaa koskeviin kysymyksiin.
 			</article>
 			<br>
-			<table>
+			<!-- Table contains HTML5 Microdata -->
+			<table itemscope itemtype="http://schema.org/Person">
 				<tr>
-					<td><img src="img/gale.jpg" width="100px"></td>
-					<td>Henri Gale</td>
-					<td>Lippukunnanjohtaja</td>
-					<td>040 8395085</td>
+					<td><img src="img/gale.jpg" alt="Henri Gale" width="100"></td>
+					<td itemprop="name">Henri Gale</td>
+					<td itemprop="jobTitle">Lippukunnanjohtaja</td>
+					<td itemprop="telephone">040 8395085</td>
 				</tr>
 			</table>
 		</section>
@@ -137,13 +143,14 @@
 		<div class="salmela_cover cover" data-cover="last"></div>
 		<!-- Footer element begins -->
 		<!-- In footer element is Suomen Partiolaisten logo and notice about copyright and that this is T-111-1100 Aalto University course project. Logo/Image is in one div and information is in second div element -->
+		<!-- Footer contains HTML5 Microdata -->
 		<div id="footer_holder"></div>
 		<footer itemscope itemtype="http://schema.org/Person">
 			<div class="footer_logo">
 				<a href="http://www.partio.fi"><img src="img/partio_logo.png" alt="Suomen Pariolaisten Logo"></a>
 			</div>
 			<div class="rights">
-				<p >&copy; Copyright 2013 by <a href="http://www.github.com/siimeon" itemprop="url"><span itemprop="name">Simo Haakana</span></a><a href="mailto:simo.haakana@aalto.fi" itemprop="email"></a></p>
+				<p >&copy; Copyright 2013 by <a href="http://www.github.com/siimeon" itemprop="url"><span itemprop="name">Simo Haakana</span></a><span class="sphide" itemprop="email">simo.haakana@aalto.fi</span></p>
 				<p ><a href="http://www.aalto.fi">Made to <span itemprop="affiliation">Aalto University</span> courser T-111.1100</a></p>
 				<p>All Rights Reserved</p>
 			</div>
