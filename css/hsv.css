@@ -175,17 +175,32 @@ img.face:hover{
 }
 img.hsv_logo{
 	position: absolute;
-	height: 27%;
+	height: 36%;
 	top: 150px;
-	margin-left: 15%;
+	margin-left: 34%;
 	opacity: 0.8;
 	transition:width 0.5s, height 0.5s, opacity 0.5s, margin-left 0.5s;
 	-webkit-transition:width 0.5s, height 0.5s, opacity 0.5s, margin-left 0.5s, -webkit-transform 0.5s; /* Safari */
 }
 img.hsv_logo:hover{
 	opacity:1;
-	height: 35%;
-	margin-left: 11%;
+	height: 42%;
+	margin-left: 29%;
+}
+.mfloat{
+	float: left;
+}
+.map{
+	border-radius: 100%;
+	width: 80%;
+	transition:width 1.2s;
+	-webkit-transition:width 1.2s, -webkit-transform 1.2s;
+}
+.map:hover{
+	width: 100%;
+}
+table{
+	text-align: center;
 }
 @media only screen and (min-device-width : 1000px){
 	/* Trying target all laptops and desktops */
