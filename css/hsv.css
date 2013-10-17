@@ -185,19 +185,19 @@ img.hsv_logo{
 img.hsv_logo:hover{
 	opacity:1;
 	height: 42%;
-	margin-left: 29%;
+	margin-left: 32%;
 }
 .mfloat{
 	float: left;
 }
 .map{
 	border-radius: 100%;
-	width: 80%;
+	width: 300px;
 	transition:width 1.2s;
 	-webkit-transition:width 1.2s, -webkit-transform 1.2s;
 }
 .map:hover{
-	width: 100%;
+	width: 450px;
 }
 table{
 	text-align: center;
@@ -289,6 +289,15 @@ table{
 		-webkit-column-count:1; /* Safari and Chrome */
 		column-count:1;
 		font-size: 40px;
+	}
+	.map{
+		border-radius: 100%;
+		width: 200px;
+		transition:width 1.2s;
+		-webkit-transition:width 1.2s, -webkit-transform 1.2s;
+	}
+	.map:hover{
+		width: 350px;
 	}
 }
 @media only screen and (min-device-width : 551px) and (max-device-width : 1024px){
