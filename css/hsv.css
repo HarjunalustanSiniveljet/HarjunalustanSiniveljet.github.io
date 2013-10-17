@@ -73,7 +73,7 @@ div.cover{
 section{
 	padding: 50px 50px 50px 50px;
 	color: white;
-	font-size:30px;
+	font-size:22px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 }
@@ -164,30 +164,58 @@ section>a{
 span.sphide{
 	display: none;
 }
+img.face{
+	border-radius: 100%;
+	width: 120px;
+	transition:width 0.5s;
+	-webkit-transition:width 0.5s, -webkit-transform 0.5s;
+}
+img.face:hover{
+	width: 160px;
+}
+img.hsv_logo{
+	position: absolute;
+	height: 27%;
+	top: 150px;
+	margin-left: 15%;
+	opacity: 0.8;
+	transition:width 0.5s, height 0.5s, opacity 0.5s, margin-left 0.5s;
+	-webkit-transition:width 0.5s, height 0.5s, opacity 0.5s, margin-left 0.5s, -webkit-transform 0.5s; /* Safari */
+}
+img.hsv_logo:hover{
+	opacity:1;
+	height: 35%;
+	margin-left: 11%;
+}
 @media only screen and (min-device-width : 1000px){
 	/* Trying target all laptops and desktops */
 	section{
 		padding-left: 70px;
 		padding-right: 70px;
-		font-size: 25px;
+		padding-bottom: 60px;
+		font-size: 22px;
 	}
 }
 @media only screen and (min-device-width : 1000px) and (min-width : 2000px) { 
 /* Big screens */
 /* Trying target big screens with high resolution */
 	article.content{
-		-moz-column-count:3; 		/* Mozilla Firefox */
-		-webkit-column-count:3; 	/* Safari and Chrome */
-		column-count:3;
+		-moz-column-count:2; 		/* Mozilla Firefox */
+		-webkit-column-count:2; 	/* Safari and Chrome */
+		column-count:2;
+	}
+	h1{
+		font-size: 3em;
 	}
 	div.cover{
 		height:1500px;
 	}
 	section{
 		padding-top:80px;
-		padding-bottom:80px;
+		padding-bottom:150px;
 		padding-left: 100px;
-		padding-right: 100px;
+		padding-right: 150px;
+		font-size: 25px;
 	}
 	section > h1{
 		margin-bottom:100px;
@@ -200,6 +228,14 @@ span.sphide{
 	}
 	*[data-height="long"]{
 		height: 2200px !important;
+	}
+	img.face{
+		width: 170px;
+		transition:width 0.5s;
+		-webkit-transition:width 0.5s, -webkit-transform 0.5s;
+	}
+	img.face:hover{
+		width: 220px;
 	}
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 550px) { 
