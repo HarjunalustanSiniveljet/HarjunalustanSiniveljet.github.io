@@ -51,6 +51,8 @@ div.map>a{
 	opacity: 0.3;
 	transition:opacity 0.8s;
 	-webkit-transition:opacity 0.8s, -webkit-transform 0.8s;
+	position: relative;
+	top: 20px;
 }
 div.map>a:hover{
 	opacity: 0.8;
