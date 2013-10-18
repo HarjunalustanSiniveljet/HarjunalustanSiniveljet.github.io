@@ -33,3 +33,35 @@ div.salmela_cover{
 div.sail_cover2{
 	background-image: url('../img/purjehdus2.jpg');
 }
+.map{
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+	transition:width 1.2s height 1.2s;
+	-webkit-transition:width 1.2s, height 1.2s, -webkit-transform 1.2s;
+}
+.map:hover{
+	height: 450px;
+	width: 450px;
+	color: blue;
+}
+div.map>a{
+	color: blue;
+	text-decoration: none;
+	opacity: 0.3;
+	transition:opacity 0.8s;
+	-webkit-transition:opacity 0.8s, -webkit-transform 0.8s;
+}
+div.map>a:hover{
+	opacity: 0.8;
+}
+#salppuri{
+	background-image: url('../img/salppuri2.png');
+	
+}
+#harjunalusta{
+	background-image: url('../img/harjunalusta2.png');
+}
+#riihela{
+	background-image: url('../img/riihela2.png')
+}
