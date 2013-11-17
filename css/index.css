@@ -2,21 +2,6 @@
 /* All Rights Reserved */
 /* This css file is made for index.html */
 
-/* Section background colors */
-/*
-section#lippukunta{
-	background-color: rgb(94, 15, 117);
-}
-section#toiminta{
-	background-color: rgb(212, 121, 30);
-}
-section#johtaja{
-	background-color: rgb(169, 206, 108);
-}
-section#yhteys{
-	background-color: rgb(148, 120, 21);
-}
-*/
 /* Background cover image */
 div.main_cover{
 	background-image:url('../img/cover.jpg');
@@ -71,17 +56,20 @@ div.map>a:hover{
 @media only screen and (min-device-width : 320px) and (max-device-width : 550px) { 
 	.map{
 		-webkit-border-radius: 999px;
-		height: 200px;
-		width: 40px;
+		height: 240px;
+		width: 60px;
 	}
 	.map:hover{
-		height: 300px;
-		width: 200px;
+		height: 240px;
+		width: 60px;
+	}
+	div.map>a{
+		top: 30px;
+		font-size: 40px;
 	}
 }
 #salppuri{
 	background-image: url('../img/salppuri2.png');
-	
 }
 #harjunalusta{
 	background-image: url('../img/harjunalusta2.png');

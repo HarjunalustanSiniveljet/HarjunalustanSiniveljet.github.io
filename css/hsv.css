@@ -252,7 +252,7 @@ table{
 		-webkit-transition:width 0.5s, -webkit-transform 0.5s;
 	}
 	img.face:hover{
-		width: 220px;
+		width: 300px;
 	}
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 550px) { 
@@ -294,12 +294,15 @@ table{
 	}
 	.map{
 		border-radius: 100%;
-		width: 200px;
+		width: 240px;
 		transition:width 1.2s;
 		-webkit-transition:width 1.2s, -webkit-transform 1.2s;
 	}
 	.map:hover{
-		width: 350px;
+		width: 240px;
+	}
+	td>div>a{
+		font-size: 40px;
 	}
 }
 @media only screen and (min-device-width : 551px) and (max-device-width : 1024px){
